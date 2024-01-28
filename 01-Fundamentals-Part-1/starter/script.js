@@ -9,6 +9,8 @@ console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
+// VARIABLE CONVENTION:
+
 // let jonas&matilda = "JM"
 let jonas_matilda = "JM";
 console.log(jonas_matilda);
