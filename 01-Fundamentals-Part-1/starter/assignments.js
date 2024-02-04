@@ -24,10 +24,10 @@ console.log(typeof language);
 // LET, CONST, VAR
 language = "Lithuanian";
 
-language = "English";
+// language = "English";
 console.log(language);
 
-// Basic Operators
+// BASIC OPERATORS
 // If your country split in half, and each half would contain half the population, then how many people would live in each half?
 let populationHalf = population / 2;
 console.log(populationHalf);
@@ -54,4 +54,10 @@ let description =
   population +
   " million people speak " +
   language;
+console.log(description);
+
+// STRINGS AND TEMPLATE LITERALS
+// Recreate the description variable from the last assignment, this time using the template literal syntax.
+
+description = `${countryName} is in ${continentName} and its ${population} million people speak ${language}`;
 console.log(description);
